@@ -1,6 +1,6 @@
 import { Request, Response } from 'express';
 import { ZodiacSignDeterminantService } from './zodiac-sign-determinant.service';
-import { isValidDate } from '../../shared/validators/IsValidDate';
+import { isValidDate } from '../../shared/validators/isValidDate';
 
 const zsdService = new ZodiacSignDeterminantService();
 
